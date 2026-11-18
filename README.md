@@ -61,6 +61,11 @@ gsettings --schemadir $schemas get org.gnome.shell.extensions.polite-focus muted
 
 Changes apply immediately; there's no need to log out.
 
+## See also
+
+- [Headroom](https://github.com/jasperblues/gnome-headroom): AI plan limits in the top bar.
+- [Roomy Panel](https://github.com/jasperblues/gnome-roomy-panel): macOS-style spacing in the top bar.
+
 ## Credits
 
 The idea and the activation approach come from [Steal My Focus](https://github.com/v-dimitrov/gnome-shell-extension-stealmyfocus). Polite Focus is a from-scratch reimplementation that adds the mute list and restores the shell's own handler on disable.
