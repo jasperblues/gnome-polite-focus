@@ -1,0 +1,12 @@
+{
+  "uuid": "polite-focus@jasperblues.github.io",
+  "name": "Polite Focus",
+  "description": "Windows that ask for attention are brought to the front, macOS-style, instead of showing a \u201c\u2026 is ready\u201d notification. Apps you mute are ignored entirely.",
+  "shell-version": [
+    "50",
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.polite-focus",
+  "url": "https://github.com/jasperblues/gnome-polite-focus",
+  "version-name": "1.0"
+}

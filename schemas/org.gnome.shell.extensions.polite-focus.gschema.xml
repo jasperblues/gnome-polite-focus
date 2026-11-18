@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.polite-focus" path="/org/gnome/shell/extensions/polite-focus/">
+    <key name="muted-apps" type="as">
+      <default>[]</default>
+      <summary>Muted apps</summary>
+      <description>
+        Apps whose attention requests are ignored entirely: no focus and no "is ready" notification.
+        Each entry is matched case-insensitively, ignoring spaces, as a substring of the window's
+        app id (e.g. org.example.App.desktop) or WM_CLASS.
+      </description>
+    </key>
+  </schema>
+</schemalist>
